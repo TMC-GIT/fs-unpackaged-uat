@@ -51,7 +51,7 @@ jobs:
               run: sfdx auth:sfdxurl:store -f ./SFDX_PREUAT_URL.txt -s -a PREUAT
 
             - name: 'Deploy the entire branch to PREUAT org'
-              run: sfdx force:source:deploy -p force-app --testlevel RunLocalTests --json
+              run: sfdx force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunLocalTests --json
 
             - name: 'Deploy destructive changes (if any) to PREUAT org'
               run: sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings 

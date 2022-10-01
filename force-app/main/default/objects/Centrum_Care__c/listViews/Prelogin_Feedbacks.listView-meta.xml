@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prelogin_Feedbacks</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>DESCRIPTION__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>PRIORITY__c</columns>
+    <columns>SEVERITY__c</columns>
+    <columns>STATUS__c</columns>
+    <columns>SUBJECT__c</columns>
+    <columns>TYPE__c</columns>
+    <columns>TMC_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Module_Related_to__c</field>
+        <operation>equals</operation>
+        <value>Pre-Login</value>
+    </filters>
+    <label>Prelogin Feedbacks</label>
+</ListView>

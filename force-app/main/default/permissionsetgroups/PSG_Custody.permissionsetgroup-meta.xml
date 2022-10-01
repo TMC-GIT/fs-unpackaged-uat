@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PSG - Custody</label>
+    <permissionSets>Custody_Edit</permissionSets>
+    <permissionSets>Custody_View</permissionSets>
+    <permissionSets>Document_Checker_Permission_Set</permissionSets>
+    <permissionSets>Document_Maker_Permission_Set</permissionSets>
+    <permissionSets>File_Inward_Permission_Set</permissionSets>
+    <permissionSets>Tab_permission_for_Custody_Storage_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

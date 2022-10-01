@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Selected_Applicant</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   ISPICKVAL(Type__c, &apos;Applicant&apos;), 
+   OR(
+      NOT(ISPICKVAL( Asset_Type__c , &apos;&apos;)) ,
+      NOT(ISPICKVAL(  Sub_Type__c , &apos;&apos;)) 
+   )
+)</errorConditionFormula>
+    <errorMessage>Asset Type and Sub Type should be blank</errorMessage>
+</ValidationRule>

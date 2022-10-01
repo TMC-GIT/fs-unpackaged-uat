@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_to_main_Application__c</fullName>
+    <externalId>false</externalId>
+    <label>Relationship to main Application</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <label>Spouse</label>
+            </value>
+            <value>
+                <fullName>Son</fullName>
+                <default>false</default>
+                <label>Son</label>
+            </value>
+            <value>
+                <fullName>Blood relative</fullName>
+                <default>false</default>
+                <label>Blood relative</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Proprietor</fullName>
+                <default>false</default>
+                <label>Proprietor</label>
+            </value>
+            <value>
+                <fullName>Chair Person</fullName>
+                <default>false</default>
+                <label>Chair Person</label>
+            </value>
+            <value>
+                <fullName>Member of Society</fullName>
+                <default>false</default>
+                <label>Member of Society</label>
+            </value>
+            <value>
+                <fullName>Group Concern</fullName>
+                <default>false</default>
+                <label>Group Concern</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

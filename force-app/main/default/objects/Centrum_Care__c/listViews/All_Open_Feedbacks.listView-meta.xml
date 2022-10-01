@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Feedbacks</fullName>
+    <columns>NAME</columns>
+    <columns>DESCRIPTION__c</columns>
+    <columns>Module_Related_to__c</columns>
+    <columns>SEVERITY__c</columns>
+    <columns>STATUS__c</columns>
+    <columns>TMC_OWNERSHIP__c</columns>
+    <columns>TMC_REMARK__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS__c</field>
+        <operation>equals</operation>
+        <value>New,In Progress,Reopened,Hold</value>
+    </filters>
+    <label>All Open Feedbacks</label>
+</ListView>

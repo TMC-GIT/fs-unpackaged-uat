@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction,lightning:actionOverride" access="global" controller="DatabaseUtililty">
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="recordTypeDetails" type="String" />
+    <aura:attribute name="verificationRecord" type="Object"/>
+
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doinit}"/>
+</aura:component>

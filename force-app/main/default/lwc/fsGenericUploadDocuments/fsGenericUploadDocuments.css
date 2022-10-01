@@ -1,0 +1,13 @@
+.scrollTable {
+    overflow-x: scroll;
+    height: 500px;
+}
+
+.slds-medium-show {
+    display: none !important;
+}
+.td-currency{
+    
+    white-space: normal;
+    min-width: 232px; max-width: 480px; width:auto;
+}
